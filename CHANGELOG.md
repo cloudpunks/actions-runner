@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/cloudpunks/actions-runner/compare/v1.1.0...v1.2.0) (2023-09-05)
+
+
+### Features
+
+* preinstall playwright dependencies ([69f6020](https://github.com/cloudpunks/actions-runner/commit/69f60208ae949c29fc8f6cc655cefe9a7ff57145))
+
 ## [1.1.0](https://github.com/cloudpunks/actions-runner/compare/v1.0.0...v1.1.0) (2023-09-04)
 
 
