@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/cloudpunks/actions-runner/compare/v1.2.0...v1.3.0) (2023-09-06)
+
+
+### Features
+
+* add zip to package list ([59599ad](https://github.com/cloudpunks/actions-runner/commit/59599ad9ad051d73b144fd0803ebe0f927b84645))
+
 ## [1.2.0](https://github.com/cloudpunks/actions-runner/compare/v1.1.0...v1.2.0) (2023-09-05)
 
 
