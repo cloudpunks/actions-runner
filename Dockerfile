@@ -11,6 +11,7 @@ RUN apt update -y && \
     git-core \
     rsync \
     curl \
+    zip \
     libglib2.0-0 \
     libnss3 \
     libnspr4 \
