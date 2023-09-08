@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0](https://github.com/cloudpunks/actions-runner/compare/v1.3.0...v1.4.0) (2023-09-08)
+
+
+### Features
+
+* **deps:** update ghcr.io/actions/actions-runner docker tag to v2.309.0 ([4ab1b64](https://github.com/cloudpunks/actions-runner/commit/4ab1b64ea42079463f2d644518852eb333bcd05e))
+* install aws cli ([d64227b](https://github.com/cloudpunks/actions-runner/commit/d64227ba8f171443a54fcc0366066b26e4f78845))
+
 ## [1.3.0](https://github.com/cloudpunks/actions-runner/compare/v1.2.0...v1.3.0) (2023-09-06)
 
 
