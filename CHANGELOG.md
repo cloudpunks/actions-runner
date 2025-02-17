@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.0](https://github.com/cloudpunks/actions-runner/compare/v1.15.0...v1.16.0) (2025-02-17)
+
+
+### Features
+
+* **deps:** update ghcr.io/actions/actions-runner docker tag to v2.322.0 ([d3aa4dd](https://github.com/cloudpunks/actions-runner/commit/d3aa4dd9aa67d159af45d0403fc3cf6a2bccb186))
+
 ## [1.15.0](https://github.com/cloudpunks/actions-runner/compare/v1.14.0...v1.15.0) (2024-11-18)
 
 
