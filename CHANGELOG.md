@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.24.1](https://github.com/cloudpunks/actions-runner/compare/v1.24.0...v1.24.1) (2026-01-07)
+
+### Dependencies
+
+* **patch:** pin ghcr.io/actions/actions-runner docker tag to ee54ad8 ([#35](https://github.com/cloudpunks/actions-runner/issues/35)) ([8e4506b](https://github.com/cloudpunks/actions-runner/commit/8e4506bd01b6a12b61e50865e4769942b1b2ebd0))
+
 ## [1.24.0](https://github.com/cloudpunks/actions-runner/compare/v1.23.0...v1.24.0) (2025-11-24)
 
 
