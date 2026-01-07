@@ -1,48 +1,6 @@
 {
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:base",
-        ":semanticCommits",
-        ":semanticCommitType(deps)"
-    ],
-    "packageRules": [
-        {
-            "description": "Semantic commits for major versions",
-            "matchUpdateTypes": [
-                "major"
-            ],
-            "semanticCommitType": "major",
-            "semanticCommitScope": "deps",
-            "automerge": false
-        },
-        {
-            "description": "Semantic commits for minor versions",
-            "matchUpdateTypes": [
-                "minor"
-            ],
-            "semanticCommitType": "minor",
-            "semanticCommitScope": "deps",
-            "automerge": false
-        },
-        {
-            "description": "Semantic commits for patch versions",
-            "matchUpdateTypes": [
-                "patch"
-            ],
-            "semanticCommitType": "patch",
-            "semanticCommitScope": "deps",
-            "automerge": true
-        },
-        {
-            "description": "Build tool version upgrades",
-            "matchManagers": [
-                "github-actions"
-            ],
-            "semanticCommitType": "ci",
-            "semanticCommitScope": "tools",
-            "automerge": true
-        }
-    ],
-    "labels": [
-        "renovate"
+        "github>cloudpunks/.github//renovate/preset"
     ]
 }

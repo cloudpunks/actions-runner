@@ -1,4 +1,5 @@
 ---
+# yaml-language-server: $schema=https://www.schemastore.org/github-workflow.json
 name: release
 
 "on":
@@ -6,32 +7,60 @@ name: release
   schedule:
     - cron: "0 8 * * 1"
 
+permissions:
+  contents: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v6
+      - name: Setup nodejs
+        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6
         with:
-          token: ${{ secrets.BOT_ACCESS_TOKEN }}
+          node-version: lts/*
 
-      - name: Semantic release
-        uses: cycjimmy/semantic-release-action@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+      - name: Generate token
+        id: token
+        uses: actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf # v2
         with:
-          extra_plugins: |
-            conventional-changelog-conventionalcommits@6.1.0
+          app-id: ${{ secrets.TOKEN_EXCHANGE_APP }}
+          private-key: ${{ secrets.TOKEN_EXCHANGE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+          permission-issues: write
+          permission-packages: write
+
+      - name: Checkout source
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
+        with:
+          token: ${{ steps.token.outputs.token }}
 
       - name: Write buildtime
         run: date >| .github/RELEASE
 
+      - name: Install releaser
+        run: |
+          npm install -g \
+            semantic-release@25.0.2 \
+            @semantic-release/changelog \
+            @semantic-release/git \
+            @semantic-release/github \
+            conventional-changelog-conventionalcommits
+
+      - name: Run releaser
+        env:
+          GITHUB_TOKEN: ${{ steps.token.outputs.token }}
+        run: semantic-release
+
+      - name: Source rebase
+        run: git pull --autostash --rebase
+
       - name: Commit changes
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9
         with:
           author_name: GitHub Actions
-          author_email: ops@cloudpunks.de
+          author_email: github@cloudpunks.de
           add: .github/RELEASE
           message: "docs: automated release update [skip ci]"
           push: true
