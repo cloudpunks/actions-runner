@@ -1,5 +1,7 @@
 # Changelog
 
+## [2.5.0](https://github.com/cloudpunks/actions-runner/compare/v2.4.0...v2.5.0) (2026-07-27)
+
 ## [2.4.0](https://github.com/cloudpunks/actions-runner/compare/v2.3.0...v2.4.0) (2026-06-15)
 
 ### Dependencies
