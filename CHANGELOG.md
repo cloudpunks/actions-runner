@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.0.0](https://github.com/cloudpunks/actions-runner/compare/v2.5.0...v3.0.0) (2026-08-31)
+
+### Features
+
+* apply new standard repo structure and integrate mise ([6f5c8f2](https://github.com/cloudpunks/actions-runner/commit/6f5c8f21b6adbc665f1cfb75c581f61bf1178c43))
+
+### Dependencies
+
+* **major:** update dependency docker/compose to v5 ([#87](https://github.com/cloudpunks/actions-runner/issues/87)) ([6e7993e](https://github.com/cloudpunks/actions-runner/commit/6e7993e56fd099b51572d742a533cc52221462e5))
+* **minor:** update dependency docker/compose to v2.40.3 ([#85](https://github.com/cloudpunks/actions-runner/issues/85)) ([3d8d11b](https://github.com/cloudpunks/actions-runner/commit/3d8d11b37153d04d5c5c0904567fb812ec65895a))
+* **minor:** update ghcr.io/actions/actions-runner docker tag to v2.337.0 ([#88](https://github.com/cloudpunks/actions-runner/issues/88)) ([5bc8ed5](https://github.com/cloudpunks/actions-runner/commit/5bc8ed541dc2e75e3d099558f7680bf788178eb3))
+* **patch:** pin ghcr.io/actions/actions-runner docker tag to 0cfdcc7 ([#84](https://github.com/cloudpunks/actions-runner/issues/84)) ([1ef7d90](https://github.com/cloudpunks/actions-runner/commit/1ef7d9043492902175c06e35e97b378d7aa37348))
+
 ## [2.5.0](https://github.com/cloudpunks/actions-runner/compare/v2.4.0...v2.5.0) (2026-07-27)
 
 ## [2.4.0](https://github.com/cloudpunks/actions-runner/compare/v2.3.0...v2.4.0) (2026-06-15)
