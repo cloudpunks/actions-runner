@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.3.0](https://github.com/cloudpunks/actions-runner/compare/v3.2.0...v3.3.0) (2026-10-19)
+
+### Dependencies
+
+* **minor:** update dependency pre-commit to v4.7.0 ([#93](https://github.com/cloudpunks/actions-runner/issues/93)) ([87b6084](https://github.com/cloudpunks/actions-runner/commit/87b60842907d4bc3815649d7376aa1998d3b0a8f))
+
 ## [3.2.0](https://github.com/cloudpunks/actions-runner/compare/v3.1.0...v3.2.0) (2026-10-12)
 
 ### Dependencies
