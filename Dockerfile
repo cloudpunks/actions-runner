@@ -3,7 +3,7 @@ FROM ghcr.io/actions/actions-runner:2.338.0@sha256:4ffadc0002b2581327e06101fc8c0
 USER root
 
 # renovate: datasource=github-releases depName=docker/compose
-ENV DOCKER_COMPOSE_VERSION=5.6.0
+ENV DOCKER_COMPOSE_VERSION=5.6.1
 
 RUN apt update -y && \
   apt-get upgrade -y && \
