@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.1](https://github.com/cloudpunks/actions-runner/compare/v3.3.0...v3.3.1) (2026-10-26)
+
+### Dependencies
+
+* **patch:** update dependency docker/compose to v5.6.1 ([#94](https://github.com/cloudpunks/actions-runner/issues/94)) ([5ccbad6](https://github.com/cloudpunks/actions-runner/commit/5ccbad63674c4529a2336b3e073139ec3e39eb2f))
+* **patch:** update ghcr.io/actions/actions-runner docker tag to v2.338.1 ([#95](https://github.com/cloudpunks/actions-runner/issues/95)) ([a0bf523](https://github.com/cloudpunks/actions-runner/commit/a0bf52398f7976e67ce9dab2ab9e57f63423dd69))
+
 ## [3.3.0](https://github.com/cloudpunks/actions-runner/compare/v3.2.0...v3.3.0) (2026-10-19)
 
 ### Dependencies
