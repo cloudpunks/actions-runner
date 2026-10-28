@@ -1,5 +1,5 @@
 #:schema https://mise.jdx.dev/schema/mise.json
 
 [tools]
-node = "24"
+node = "26"
 pre-commit = "4.7.0"
