@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.0](https://github.com/cloudpunks/actions-runner/compare/v3.3.1...v4.0.0) (2026-11-02)
+
+### Dependencies
+
+* **major:** update node.js to v26 ([#97](https://github.com/cloudpunks/actions-runner/issues/97)) ([d97d226](https://github.com/cloudpunks/actions-runner/commit/d97d2266eafa7242aa397c7ee3e7d5b5a002e0ff))
+* **patch:** update ghcr.io/actions/actions-runner docker tag to v2.338.2 ([#96](https://github.com/cloudpunks/actions-runner/issues/96)) ([e7229ce](https://github.com/cloudpunks/actions-runner/commit/e7229ce04ff89d90daa48bb8b4fe16f305b03420))
+
 ## [3.3.1](https://github.com/cloudpunks/actions-runner/compare/v3.3.0...v3.3.1) (2026-10-26)
 
 ### Dependencies
