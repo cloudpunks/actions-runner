@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.1.0](https://github.com/cloudpunks/actions-runner/compare/v4.0.0...v4.1.0) (2026-11-16)
+
+### Dependencies
+
+* **minor:** update dependency docker/compose to v5.7.0 ([#98](https://github.com/cloudpunks/actions-runner/issues/98)) ([de66579](https://github.com/cloudpunks/actions-runner/commit/de66579e42e94320596931e3184e688be0771be0))
+* **patch:** update dependency docker/compose to v5.7.1 ([#99](https://github.com/cloudpunks/actions-runner/issues/99)) ([2f4d404](https://github.com/cloudpunks/actions-runner/commit/2f4d40414ba30b1eb0428bca8b9279e9485c9314))
+* **patch:** update ghcr.io/actions/actions-runner:2.338.2 docker digest to 6d0b2d8 ([#100](https://github.com/cloudpunks/actions-runner/issues/100)) ([5b9a38c](https://github.com/cloudpunks/actions-runner/commit/5b9a38c01ffd70a42a0631304721a31fb338ceb4))
+
 ## [4.0.0](https://github.com/cloudpunks/actions-runner/compare/v3.3.1...v4.0.0) (2026-11-02)
 
 ### Dependencies
