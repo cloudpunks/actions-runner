@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.2.0](https://github.com/cloudpunks/actions-runner/compare/v4.1.0...v4.2.0) (2026-11-23)
+
+### Dependencies
+
+* **minor:** update dependency docker/compose to v5.8.0 ([#101](https://github.com/cloudpunks/actions-runner/issues/101)) ([a9f68d5](https://github.com/cloudpunks/actions-runner/commit/a9f68d5cb13b88f04584784c0a713c26dc52f8a8))
+
 ## [4.1.0](https://github.com/cloudpunks/actions-runner/compare/v4.0.0...v4.1.0) (2026-11-16)
 
 ### Dependencies
